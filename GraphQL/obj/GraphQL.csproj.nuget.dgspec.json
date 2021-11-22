@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jukhan/Downloads/graphql-hot-chocolateaa/GraphQL/GraphQL.csproj": {}
+    "/Users/jukhan/Downloads/graphql-hot-chocolate/GraphQL/GraphQL.csproj": {}
   },
   "projects": {
-    "/Users/jukhan/Downloads/graphql-hot-chocolateaa/GraphQL/GraphQL.csproj": {
+    "/Users/jukhan/Downloads/graphql-hot-chocolate/GraphQL/GraphQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jukhan/Downloads/graphql-hot-chocolateaa/GraphQL/GraphQL.csproj",
+        "projectUniqueName": "/Users/jukhan/Downloads/graphql-hot-chocolate/GraphQL/GraphQL.csproj",
         "projectName": "GraphQL",
-        "projectPath": "/Users/jukhan/Downloads/graphql-hot-chocolateaa/GraphQL/GraphQL.csproj",
+        "projectPath": "/Users/jukhan/Downloads/graphql-hot-chocolate/GraphQL/GraphQL.csproj",
         "packagesPath": "/Users/jukhan/.nuget/packages/",
-        "outputPath": "/Users/jukhan/Downloads/graphql-hot-chocolateaa/GraphQL/obj/",
+        "outputPath": "/Users/jukhan/Downloads/graphql-hot-chocolate/GraphQL/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jukhan/.config/NuGet/NuGet.Config"
+          "/Users/jukhan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -37,6 +37,22 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "HotChocolate.AspNetCore": {
+              "target": "Package",
+              "version": "[12.3.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
